@@ -25,8 +25,6 @@ public:
 
 signals:
 
-private slots:
-    void closeMainWindow();  // 声明用于关闭主窗口的槽函数
 private:
     void setupUI(TemplateVector &templateVec);
     MainDialogPrivate *const d;
